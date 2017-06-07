@@ -13,6 +13,11 @@ h1 {
 	font-size: 100px;
 }
 
+h2 {
+	font-family: GothamMedium;
+	font-size: 70px;
+}
+
 h3 {
 	font-size: 24px;
 	font-family: 'Playfair Display', serif;
@@ -85,33 +90,98 @@ a {
 	text-align: center;
 }
 
-.col-md-4 {
-	height: 300px;
-	border: 2px solid;
-	margin-left: 10px;
-	margin-bottom: 20px;
-}
-
-.skills-title {
-	text-align: center;
-	height: 50px;
-	width: 100px;
-	border: 2px solid;
-	background: transparent;
-}
-
 .skills {
 	background-image: url("../images/desk.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.8;
+	color: white;
 }
 
-.one {
+.skills-title {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.skills-icon {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	left: 50%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+    -webkit-filter: drop-shadow(5px 5px #09ffe7);
+    filter:         drop-shadow(5px 5px #09ffe7); 
+}
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #3187c8;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.skills-icon: hover .overlay {
+	bottom: 0;
+	height: 100%;
+}
+
+.text {
+	white-space: nowrap; 
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 
 }
 
+.video {
+	background-image: url("../images/video.png");
+	background-position: center;
+	background-size: cover;
+
+}
+
+.photo {
+	background-image: url("../images/photo.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.edit {
+	background-image: url("../images/editing.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.audio {
+	background-image: url("../images/audio.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.writing {
+	background-image: url("../images/writing.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.interview {
+	background-image: url("../images/interview.png");
+	background-position: center;
+	background-size: cover;
+}
 
 @media screen and (max-width: 800px) {
 	h1 {
