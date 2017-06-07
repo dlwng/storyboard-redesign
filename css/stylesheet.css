@@ -53,3 +53,13 @@ h3 {
     font-family: GothamMedium;
 }
 
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 90px;
+	}
+	#title-offset {
+		transform: translate(-49%, -80%);
+		
+	}
+}
+
