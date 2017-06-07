@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
+@font-face {
+    font-family: “GothamMedium”;
+    src: url(“GothamMedium.otf”);
+}
+@font-face {
+    font-family: “GothamBook”;
+    src: url(“GothamBook.otf”);
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h3 {
+    font-family: ‘Playfair Display’, serif;
+}
 .hackCvilleLogo{
     width: 40px;
     height: auto;
