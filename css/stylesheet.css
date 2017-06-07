@@ -14,7 +14,12 @@ h1 {
 }
 
 h3 {
+	font-size: 24px;
 	font-family: 'Playfair Display', serif;
+}
+
+a {
+	font-family: GothamMedium;
 }
 
 .hackCvilleLogo{
@@ -25,18 +30,18 @@ h3 {
 }
 .navbar{
     background-color: white;
+    margin-bottom: 0;
 }
 .applyButton{
     margin-top: -6px;
 }
 .nav li{
     margin-top: 5px;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 .navbar-right{
     margin-right: 5vw;
 }
-
 .hero-image {
 	background-image: url("../images/header.png");
 	background-color: #3187c8;
@@ -61,7 +66,11 @@ h3 {
     font-family: GothamMedium;
 }
 
-#title-offset {
+#hero-title {
+	text-shadow: 5px 5px #09ffe7;
+}
+
+/*#title-offset {
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -70,7 +79,7 @@ h3 {
 	color: #09ffe7;
 	z-index: -1;
     font-family: GothamMedium;
-}
+}*/
 
 @media screen and (max-width: 800px) {
 	h1 {
@@ -79,6 +88,21 @@ h3 {
 	#title-offset {
 		transform: translate(-49%, -80%);
 		
+	}
+}
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 15px;
+	}
+	#hero-title {
+		text-shadow: 2px 2px #09ffe7;
+		
+	}
+	.hero-image {
+		height: 300px;
 	}
 }
 
