@@ -12,7 +12,10 @@
 h1 {
 	font-size: 100px;
 }
-
+h2{
+    font-family:GothamMedium;
+    font-size: 40px;
+}
 h3 {
 	font-size: 24px;
 	font-family: 'Playfair Display', serif;
@@ -80,7 +83,13 @@ a {
 	z-index: -1;
     font-family: GothamMedium;
 }*/
-
+.about_subtitle{
+    text-align: center;
+    margin-top: 4vh;
+}
+.about_subtitle h2{
+    margin-top: -4px;
+}
 @media screen and (max-width: 800px) {
 	h1 {
 		font-size: 90px;
