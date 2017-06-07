@@ -28,6 +28,14 @@ h4{
 	font-family:GothamMedium;
 	font-size: 30px;
 }
+h5{
+	font-family:GothamBook;
+	font-size: 22px;
+}
+h6{
+	font-family: GothamBook;
+	font-size: 13px;
+}
 p{
 	font-family: GothamBook;
 	font-size: 20px;
@@ -105,9 +113,12 @@ p{
 	height: 27vh;*/
 	background-size: cover;
 	display: inline-block;
+	z-index: -3;
+	position: relative;
 }
 .imageOneSpecific{
 	background-image:url("../images/aboutImageOne.png");
+	z-index: -1;
 }
 .aboutText{
 	display: inline-block;
@@ -124,12 +135,41 @@ p{
 	margin-top: 50px;
 }
 .secondTextSpecific{
+	margin-right: 4vw;
 }
 .imageTwoSpecific{
 	background-image:url("../images/premiereEdit.png");
 }
 .aboutHolderTwo{
 	margin-top: 80px;
+}
+.quoteSet{
+	border: 2px solid black;
+	width: 480px;
+	height: 220px;
+	z-index: 4;
+	margin-top: 380px;
+	margin-left:-50px;
+}
+.quoteSet h5{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: left;
+}
+.tealOffSet{
+	width: 480px;
+	height: 220px;
+	z-index: -2;
+	background-color: #09ffe7;
+	margin-top: -210px;
+	margin-left: -40px;
+	position: relative;
+
+}
+.quoteSet h6{
+	margin-top: -10px;
 }
 
 @media screen and (max-width: 800px) {
