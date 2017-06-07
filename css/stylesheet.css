@@ -171,15 +171,105 @@ p{
 .quoteSet h6{
 	margin-top: -10px;
 }
-
+.phoneSecondImage{
+	display: none;
+}
+@media screen and (max-width: 1100px) {
+	.image{
+		width:400px;
+    	height: 280px;
+	}
+	.quoteSet{
+		margin-top: 200px;
+		width: 340px;
+		height: 140px;
+	}
+	.quoteSet h5{
+		font-size: 14px;
+		margin-top:10px;
+	}
+	.quoteSet h6{
+		font-size: 12px;
+		margin-top: -18px;
+	}
+	.tealOffSet{
+		width: 340px;
+		height: 140px;
+		margin-top: -130px;
+	}
+	.aboutText{
+		margin-top: -14px;
+	}
+}
 @media screen and (max-width: 800px) {
 	h1 {
 		font-size: 90px;
 	}
 	#title-offset {
 		transform: translate(-49%, -80%);
-		
 	}
+	.aboutText h4{
+		font-size: 18px;
+	}
+	.aboutText p{
+		font-size: 16px;
+	}
+	.firstTextSpecific{
+		margin-left: 0;
+	}
+	.secondTextSpecific{
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 710px) {
+	.imageOneSpecific{
+		width:100%;
+	}
+	.firstTextSpecific{
+		width:100%;
+		margin-top: 55px;
+	}
+	.quoteSet{
+		margin-top: 200px;
+		width: 270px;
+		height: 140px;
+		margin-right: auto;
+		margin-left: auto;
+		border: none;
+		border: 2px solid black;
+	}
+	.quoteSet h5{
+		font-size: 12px;
+		margin-top:20px;
+	}
+	.quoteSet h6{
+		font-size: 12px;
+		margin-top: -25px;
+	}
+	.tealOffSet{
+		margin-right: auto;
+		margin-left: auto;
+		width: 270px;
+		height: 140px;
+		margin-top: -130px;
+	}
+	.imageTwoSpecific{
+		width:100%;
+	}
+	.secondTextSpecific{
+		width:100%;
+		margin-top: 25px;
+	}
+	.aboutHolder{
+		margin-top: 35px;
+	}
+	.phoneSecondImage{
+		display: inline-block;
+	}
+	.hideWhenMobile{
+		display: none;
+	}
+
 }
 @media screen and (max-width: 700px) {
 	h1 {
@@ -196,5 +286,10 @@ p{
 		height: 300px;
 	}
 }
+@media screen and (max-width: 600px) {
+	.about_subtitle h2{
+		font-size: 10vw;
+	}
 
+}
 
