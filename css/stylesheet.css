@@ -100,20 +100,19 @@ a {
 
 .skills-title {
 	text-align: center;
-	margin: 0 auto;
 	margin-bottom: 50px;
 }
 
 .skills-icon {
+	position: relative;
+  	width: 50%;
 	text-align: center;
-	height: 200px;
-	width: 200px;
-	left: 50%;
+	height: 100px;
+	width: 100px;
 	margin: 0 auto;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
     -webkit-filter: drop-shadow(5px 5px #09ffe7);
-    filter:         drop-shadow(5px 5px #09ffe7); 
-}
+    filter: drop-shadow(5px 5px #09ffe7); 
 }
 
 .overlay {
@@ -146,11 +145,12 @@ a {
 
 }
 
+
+
 .video {
 	background-image: url("../images/video.png");
 	background-position: center;
 	background-size: cover;
-
 }
 
 .photo {
