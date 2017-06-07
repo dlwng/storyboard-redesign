@@ -82,7 +82,36 @@ a {
 }*/
 
 .row {
+	text-align: center;
 }
+
+.col-md-4 {
+	height: 300px;
+	border: 2px solid;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.skills-title {
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	border: 2px solid;
+	background: transparent;
+}
+
+.skills {
+	background-image: url("../images/desk.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+.one {
+
+}
+
 
 @media screen and (max-width: 800px) {
 	h1 {
