@@ -255,8 +255,9 @@ p{
 		margin-top: 55px;
 	}
 	.quoteSet{
-		margin-top: 200px;
-		width: 270px;
+		margin-top: 205px;
+		/*width: 270px;*/
+		width: auto;
 		height: 140px;
 		margin-right: auto;
 		margin-left: auto;
@@ -264,18 +265,20 @@ p{
 		border: 2px solid black;
 	}
 	.quoteSet h5{
-		font-size: 12px;
-		margin-top:20px;
+		font-size: 3vw;
+		margin-top:28px;
 	}
 	.quoteSet h6{
-		font-size: 12px;
+		font-size: 2.5vw;
 		margin-top: -25px;
 	}
 	.tealOffSet{
 		margin-right: auto;
 		margin-left: auto;
-		width: 270px;
+		/*width: 270px;
+		height: 140px;*/
 		height: 140px;
+		width: auto;
 		margin-top: -130px;
 	}
 	.imageTwoSpecific{
