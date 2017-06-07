@@ -185,6 +185,7 @@ p{
 }
 .cmn-t-pulse:hover {
   color: #fff;
+  background-color: #3187c8;
 }
 @keyframes pulse {
   0% {
@@ -199,6 +200,8 @@ p{
     transform: scale(1);
   }
 }
+
+/* ^^^ -------------------------- animation stuff im trying -------------------------- ^^^ */ 
 @media screen and (max-width: 1100px) {
 	.image{
 		width:400px;
