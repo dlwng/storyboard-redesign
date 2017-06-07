@@ -174,6 +174,31 @@ p{
 .phoneSecondImage{
 	display: none;
 }
+
+/* -------------------------- animation stuff im trying -------------------------- */
+
+.cmn-t-pulse {
+  color: #fff;
+  background-color: #09ffe7;
+  animation: pulse 1s ease infinite;
+  /* transition: transform 0.2s; */
+}
+.cmn-t-pulse:hover {
+  color: #fff;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 @media screen and (max-width: 1100px) {
 	.image{
 		width:400px;
