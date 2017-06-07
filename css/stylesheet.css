@@ -44,7 +44,7 @@ a {
 }
 .hero-image {
 	background-image: url("../images/header.png");
-	background-color: #3187c8;
+	background-color: black;
 	width: 100%;
 	height: 600px;
 	background-position: center;
@@ -80,6 +80,9 @@ a {
 	z-index: -1;
     font-family: GothamMedium;
 }*/
+
+.row {
+}
 
 @media screen and (max-width: 800px) {
 	h1 {
