@@ -17,6 +17,25 @@ h3 {
 	font-family: 'Playfair Display', serif;
 }
 
+.hackCvilleLogo{
+    width: 40px;
+    height: auto;
+    margin-top: -5px;
+    margin-left: 5vw;
+}
+.navbar{
+    background-color: white;
+}
+.applyButton{
+    margin-top: -6px;
+}
+.nav li{
+    margin-top: 5px;
+    margin-left: 5vw;
+}
+.navbar-right{
+    margin-right: 5vw;
+}
 
 .hero-image {
 	background-image: url("../images/header.png");
@@ -62,4 +81,5 @@ h3 {
 		
 	}
 }
+
 
