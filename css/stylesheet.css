@@ -174,6 +174,37 @@ p{
 .phoneSecondImage{
 	display: none;
 }
+.CC{
+	background-image:url("../images/cc.png");
+	z-index: -3;
+}
+.ccName{
+	border: 2px solid black;
+	margin-top: 430px;
+	margin-left: 17vw;
+	width: 300px;
+	height: 71px;
+	z-index: 2;
+	position: relative;
+}
+.ccName h2{
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1px;
+	padding: 3px;
+	width: fit-content;
+	z-index: 2;
+}
+.ccTeal{
+	background-color: #09ffe7;
+	width: 300px;
+	height: 70px;
+	z-index: -1;
+	margin-left: 16.5vw;
+	margin-top: -60px;
+	position: relative;
+}
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
