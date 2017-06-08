@@ -228,6 +228,12 @@ p{
 	margin-left: 115px;
 	margin-top: -55px;
 }
+.ceciliaSpecific{
+	background-image:url("../images/fillerPerson.png");
+	z-index: -3;
+	display: inline-block;
+	background-size: cover;
+}
 
 
 /* -------------------------- animation stuff im trying -------------------------- */
