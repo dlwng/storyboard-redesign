@@ -176,6 +176,67 @@ p{
 .phoneSecondImage{
 	display: none;
 }
+.CCspecific{
+	background-image:url("../images/cc.png");
+	z-index: -3;
+	display: inline-block;
+}
+.instructors{
+	text-align: center;
+}
+.CCtext{
+	margin-left: 4vw;
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+	margin-top: 55px;
+	text-align: left;
+}
+.CCtext h5{
+	font-size: 30px;
+}
+.ccimage{
+	width:300px;
+    height: 280px;
+	/*width: 16vw;
+	height: 27vh;*/
+	background-size: cover;
+	display: inline-block;
+	z-index: -3;
+	position: relative;
+}
+.ccPhotoTextHolder{
+	margin-top: 20px;
+}
+.CCworkLink{
+	font-size: 20px;
+	color:#3187c8;
+}
+.ccBlackRectangle{
+	border: 3px solid black;
+	width: 180px;
+	height: 50px;
+	margin-top: 255px;
+	margin-left:120px;
+	position: relative;
+}
+.ccBlackRectangle h4{
+	margin-top: 2px;
+}
+.ccTealRectangle{
+	width: 177px;
+	height: 47px;
+	background-color: #09ffe7;
+	margin-left: 115px;
+	margin-top: -55px;
+}
+.ceciliaSpecific{
+	background-image:url("../images/fillerPerson.png");
+	z-index: -3;
+	display: inline-block;
+	background-size: cover;
+}
+
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
@@ -326,6 +387,13 @@ p{
 	.aboutText{
 		margin-top: -14px;
 	}
+	.CCtext h5{
+		font-size: 20px;
+		margin-top: -50px;
+	}
+	.CCtext{
+		width: 40%;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -347,6 +415,7 @@ p{
 	.secondTextSpecific{
 		margin-right: 0;
 	}
+
 }
 @media screen and (max-width: 710px) {
 	.imageOneSpecific{
@@ -398,6 +467,21 @@ p{
 	}
 	.hideWhenMobile{
 		display: none;
+	}
+	.ccimage{
+		width: 100%;
+	}
+	.CCtext{
+		width:100%;
+		margin-top:100px;
+	}
+	.ccBlackRectangle{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ccTealRectangle{
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 }
