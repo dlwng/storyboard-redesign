@@ -187,7 +187,7 @@ p{
 .CCtext{
 	margin-left: 4vw;
 	display: inline-block;
-	width: 60%;
+	width: 40%;
 	vertical-align: top;
 	margin-top: 55px;
 	text-align: left;
@@ -236,7 +236,16 @@ p{
 	display: inline-block;
 	background-size: cover;
 }
-
+.Ceciliatext{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	margin-top: 25px;
+	text-align: left;
+}
+.Ceciliatext h5{
+	font-size: 30px;
+}
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
@@ -361,6 +370,13 @@ p{
 }
 
 /* ^^^ -------------------------- animation stuff im trying -------------------------- ^^^ */ 
+@media screen and (max-width: 1210px) {
+	.Ceciliatext h5{
+	font-size: 25px;
+}
+}
+
+
 @media screen and (max-width: 1100px) {
 	.image{
 		width:400px;
@@ -414,6 +430,9 @@ p{
 	}
 	.secondTextSpecific{
 		margin-right: 0;
+	}
+	.CCtext{
+		margin-left: 0;
 	}
 
 }
@@ -474,6 +493,7 @@ p{
 	.CCtext{
 		width:100%;
 		margin-top:100px;
+		margin-left: 0;
 	}
 	.ccBlackRectangle{
 		margin-left: auto;
@@ -482,6 +502,10 @@ p{
 	.ccTealRectangle{
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.Ceciliatext h5{
+		width:100%;
+		margin-left: 0;
 	}
 
 }
@@ -498,6 +522,9 @@ p{
 	}
 	.hero-image {
 		height: 300px;
+	}
+	.teacherTitle{
+		font-size: 40px;
 	}
 }
 @media screen and (max-width: 600px) {
