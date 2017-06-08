@@ -63,6 +63,7 @@ p{
 .navbar-right{
     margin-right: 5vw;
 }
+
 .hero-image {
 	background-image: url("../images/header.png");
 	background-color: black;
@@ -73,7 +74,6 @@ p{
 	background-size: cover;
 	position: relative;
 	margin: 0 auto;
-	opacity: 0.8;
 }
 
 .hero-text {
@@ -91,6 +91,9 @@ p{
 	text-shadow: 5px 5px #09ffe7;
 }
 
+#hero-title:hover {
+	text-shadow: 5px 5px #3187c8;
+}
 /*#title-offset {
 	text-align: center;
 	position: absolute;
@@ -101,6 +104,7 @@ p{
 	z-index: -1;
     font-family: GothamMedium;
 }*/
+
 .about_subtitle{
     text-align: center;
     margin-top: 4vh;
@@ -253,30 +257,8 @@ p{
 }
 
 
-/* -------------------------- animation stuff im trying -------------------------- */
-
-.cmn-t-pulse {
-  color: #fff;
-  background-color: #09ffe7;
-  animation: pulse 1s ease infinite;
-  /* transition: transform 0.2s; */
-}
-.cmn-t-pulse:hover {
-  color: #fff;
-  background-color: #3187c8;
-}
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-<<<<<<< HEAD
-.row {
-	text-align: center;
-}
-
 .skills {
-	background-image: url("../images/desk.jpg");
+	background-image: url("../images/desk-bw.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -285,49 +267,47 @@ p{
 
 .skills-title {
 	text-align: center;
-	margin-bottom: 50px;
+}
+
+.skills-title h3 {
+	margin-bottom: 0px;
+	font-size: 35px;
+	margin-top: 30px;
+}
+
+.skills-title h2 {
+	margin-bottom: 40px;
+	margin-top: -4px;
+}
+
+.skills-container {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row {
+	text-align: center;
 }
 
 .skills-icon {
-	position: relative;
-  	width: 50%;
 	text-align: center;
-	height: 100px;
-	width: 100px;
 	margin: 0 auto;
-	margin-bottom: 100px;
+	height: 150px;
+	width: 150px;
     -webkit-filter: drop-shadow(5px 5px #09ffe7);
     filter: drop-shadow(5px 5px #09ffe7); 
 }
 
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #3187c8;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
+.col-md-4 {
+	margin-bottom: 50px;
 }
 
-.skills-icon: hover .overlay {
-	bottom: 0;
-	height: 100%;
-}
-
-.text {
-	white-space: nowrap; 
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-
+.hover-container {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
 }
 
 .video {
@@ -335,6 +315,56 @@ p{
 	background-position: center;
 	background-size: cover;
 }
+
+.overlay {
+	position: absolute;
+	background-color: white;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 50%;
+}
+
+/*.overlay {
+	position: absolute;
+	background-color: #3187c8;
+	text-align: center;
+	height: 150px;
+	width: 150px;
+	color: black;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: none;
+
+}*/
+
+.text {
+	white-space: nowrap; 
+	color: black;
+	font-family: GothamMedium;
+	font-size: 18px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.hover-container:hover .overlay{
+	bottom: 0;
+	height: 100%;
+}
+
+.hover-container:hover .skills-icon{
+	-webkit-filter: drop-shadow(5px 5px #3187c8);
+    filter: drop-shadow(5px 5px #3187c8); 
+}
+
+/*.video: hover .overlay {
+	bottom: 0;
+	height: 100%;
+}*/
 
 .photo {
 	background-image: url("../images/photo.png");
@@ -365,6 +395,61 @@ p{
 	background-position: center;
 	background-size: cover;
 }
+
+.curr-link {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	width: 250px;
+	height: 50px;
+}
+
+.curr-link a {
+	color: #3187c8;
+	font-size: 20px;
+	overflow: hidden;
+	background-color: white;
+	padding: 10px;
+}
+
+.curr-link a:hover {
+	color: #09ffe7;
+	text-decoration: none;
+}
+
+.teal-offset-button {
+	color: #09ffe7;
+	text-align: center;
+	margin-bottom: 40px;
+	width: 250px;
+	height: 50px;
+}
+
+.desktop {
+	margin-bottom: 20px;
+}
+
+.mobile {
+	margin-bottom: 20px;
+	display: none;
+}
+
+
+/* -------------------------- animation stuff im trying -------------------------- */
+
+.cmn-t-pulse {
+  color: #fff;
+  background-color: #09ffe7;
+  animation: pulse 1s ease infinite;
+  /* transition: transform 0.2s; */
+}
+.cmn-t-pulse:hover {
+  color: #fff;
+  background-color: #3187c8;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
 
   50% {
     transform: scale(1.1);
@@ -409,12 +494,34 @@ p{
 	.aboutText{
 		margin-top: -14px;
 	}
+
 	.CCtext h5{
 		font-size: 20px;
 		margin-top: -50px;
 	}
 	.CCtext{
 		width: 40%;
+
+	h3 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 995px) {
+
+	.text {
+		font-size: 12px;
+	}
+	.mobile {
+		display: inline-block;
+	}
+
+	.desktop {
+		display: none;
+	}
+	.col-xs-6 {
+		margin-bottom: 30px;
+
 	}
 }
 
@@ -524,7 +631,9 @@ p{
 	}
 	#hero-title {
 		text-shadow: 2px 2px #09ffe7;
-		
+	}
+	#hero-title:hover {
+		text-shadow: 2px 2px #3187c8;
 	}
 	.hero-image {
 		height: 300px;
@@ -532,11 +641,33 @@ p{
 	.teacherTitle{
 		font-size: 40px;
 	}
+	.skills-title h3 {
+		font-size: 25px;
+	}
+
+
 }
 @media screen and (max-width: 600px) {
 	.about_subtitle h2{
 		font-size: 10vw;
 	}
-
+	.skills-title h2{
+		font-size: 10vw;
+	}
+	.skills-container {
+		width: 100%;
+	}
+	.skills-title h3 {
+		font-size: 4vw;
+		margin-bottom: 8px;
+	}
+	.hover-container {
+		width: 100px;
+		height: 100px;
+	}
+	.skills-icon {
+		width: 100px;
+		height: 100px;
+	}
 }
 
