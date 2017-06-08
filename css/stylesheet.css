@@ -441,6 +441,7 @@ p{
     display: inline-block;
     vertical-align: top;
     margin-top: 30px;
+    text-align: left;
 }
 .afterPhoto{
     display: inline-block;
@@ -460,31 +461,31 @@ p{
     margin-top: 20px;
 }
 .afterBlackBox h5{
-    font-size: 14px;
-    width: 340px;
+    font-size: 22px;
+    width: 330px;
     margin-left: 10px;
 }
 .afterBlackBox h6{
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 10px;
 }
 .afterBlackBox{
     border: 3px solid black;
     color: black;
     text-align: left;
-    margin-top: 325px;
+    margin-top: 270px;
     width: 350px;
-    height: 100px;
+    height: 175px;
     margin-left: 90px;
     position: relative;
     z-index: 10;
 }
 .afterTealBox{
     width:350px;
-    height: 100px;
+    height: 175px;
     background:#09ffe7;
     position: relative;
-    margin-top: -90px;
+    margin-top: -166px;
     margin-left: 100px;
 }
 
@@ -577,6 +578,33 @@ p{
 		margin-bottom: 30px;
 
 	}
+    .afterTitle{
+        margin-top: -10px;
+        margin-right: 10px
+    }
+    .afterPhoto{
+        width:300px;
+        height: 280px;
+        margin-top: 30px;
+    }
+    .afterTealBox{
+        width:270px;
+        height: 105px;
+        margin-top:-95px;
+    }
+    .afterBlackBox{
+        width: 270px;
+        height: 105px;
+        margin-top: 220px;
+    }
+    .afterBlackBox h5{
+        font-size: 14px;
+        width: 255px
+    }
+    .afterBlackBox h6{
+        font-size: 12px;
+        margin-top: -9px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -673,7 +701,14 @@ p{
 	.Ceciliatext h5{
 		width:100%;
 		margin-left: 0;
-	}
+	
+    }
+    .afterTitle{
+        width: 100%;
+        margin-top: 20px;
+    }
+  
+    
 
 }
 @media screen and (max-width: 700px) {
@@ -698,6 +733,14 @@ p{
 	.skills-title h3 {
 		font-size: 25px;
 	}
+    .afterBlackBox{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .afterTealBox{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 }
@@ -723,5 +766,14 @@ p{
 		width: 100px;
 		height: 100px;
 	}
+    .afterStoryboardTitle{
+        font-size: 40px;
+    }
 }
+@media screen and (max-width: 550px) {
+    .afterStoryboardTitle{
+        font-size: 35px;
+    }
+}
+    
 
