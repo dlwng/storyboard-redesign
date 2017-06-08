@@ -101,6 +101,7 @@ p{
 	z-index: -1;
     font-family: GothamMedium;
 }*/
+
 .about_subtitle{
     text-align: center;
     margin-top: 4vh;
@@ -193,10 +194,6 @@ p{
   0% {
     transform: scale(1);
   }
-
-<<<<<<< HEAD
-.row {
-	text-align: center;
 }
 
 .skills {
@@ -207,51 +204,35 @@ p{
 	color: white;
 }
 
-.skills-title {
+#skills-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.skills-container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.row {
 	text-align: center;
 	margin-bottom: 50px;
 }
 
 .skills-icon {
-	position: relative;
-  	width: 50%;
 	text-align: center;
-	height: 100px;
-	width: 100px;
 	margin: 0 auto;
-	margin-bottom: 100px;
+	height: 150px;
+	width: 150px;
     -webkit-filter: drop-shadow(5px 5px #09ffe7);
     filter: drop-shadow(5px 5px #09ffe7); 
 }
 
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #3187c8;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-}
-
-.skills-icon: hover .overlay {
-	bottom: 0;
-	height: 100%;
-}
-
-.text {
-	white-space: nowrap; 
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-
+.hover-container {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
 }
 
 .video {
@@ -259,6 +240,53 @@ p{
 	background-position: center;
 	background-size: cover;
 }
+
+.overlay {
+	position: absolute;
+	background-color: #3187c8;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 50%;
+}
+
+/*.overlay {
+	position: absolute;
+	background-color: #3187c8;
+	text-align: center;
+	height: 150px;
+	width: 150px;
+	color: black;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: none;
+
+}*/
+
+.text {
+	white-space: nowrap; 
+	color: white;
+	font-family: GothamMedium;
+	font-size: 18px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.hover-container:hover .overlay{
+	bottom: 0;
+	height: 100%;
+}
+
+
+
+/*.video: hover .overlay {
+	bottom: 0;
+	height: 100%;
+}*/
 
 .photo {
 	background-image: url("../images/photo.png");
@@ -325,6 +353,12 @@ p{
 	}
 	.aboutText{
 		margin-top: -14px;
+	}
+	h1 {
+		font-size: 100px;
+	} 
+	h3 {
+		font-size: 30px;
 	}
 }
 
