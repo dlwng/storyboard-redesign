@@ -449,6 +449,14 @@ p{
 	width: 100%;
 }
 
+iframe {
+	filter: grayscale(100%);
+}
+
+iframe:hover {
+	filter: grayscale(0%);
+}
+
 .widescreen {
 	margin: 0 auto;
 	text-align: center;
