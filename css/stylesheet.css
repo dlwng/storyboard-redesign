@@ -212,6 +212,10 @@ p{
 	font-size: 20px;
 	color:#3187c8;
 }
+.CCworkLink:hover{
+	color: #09ffe7;
+	text-decoration: none;
+}
 .ccBlackRectangle{
 	border: 3px solid black;
 	width: 180px;
@@ -247,6 +251,7 @@ p{
 	font-size: 30px;
 	display: inline-block;
 }
+
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
