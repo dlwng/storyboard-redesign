@@ -210,6 +210,10 @@ p{
 	font-size: 20px;
 	color:#3187c8;
 }
+.CCworkLink:hover{
+	color: #09ffe7;
+	text-decoration: none;
+}
 .ccBlackRectangle{
 	border: 3px solid black;
 	width: 180px;
@@ -244,6 +248,7 @@ p{
 .Ceciliatext h5{
 	font-size: 30px;
 }
+
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
