@@ -181,24 +181,6 @@ p{
 	display: none;
 }
 
-/* -------------------------- animation stuff im trying -------------------------- */
-
-.cmn-t-pulse {
-  color: #fff;
-  background-color: #09ffe7;
-  animation: pulse 1s ease infinite;
-  /* transition: transform 0.2s; */
-}
-.cmn-t-pulse:hover {
-  color: #fff;
-  background-color: #3187c8;
-}
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-}
-
 .skills {
 	background-image: url("../images/desk-bw.png");
 	background-position: center;
@@ -219,7 +201,6 @@ p{
 
 .row {
 	text-align: center;
-	margin-bottom: 50px;
 }
 
 .skills-icon {
@@ -229,6 +210,10 @@ p{
 	width: 150px;
     -webkit-filter: drop-shadow(5px 5px #09ffe7);
     filter: drop-shadow(5px 5px #09ffe7); 
+}
+
+.col-md-4 {
+	margin-bottom: 50px;
 }
 
 .hover-container {
@@ -289,8 +274,6 @@ p{
     filter: drop-shadow(5px 5px #3187c8); 
 }
 
-
-
 /*.video: hover .overlay {
 	bottom: 0;
 	height: 100%;
@@ -325,6 +308,51 @@ p{
 	background-position: center;
 	background-size: cover;
 }
+
+.curr-link {
+	text-align: center;
+	margin-bottom: 40px;
+	border: 3px solid black;
+	width: 250px;
+	height: 50px;
+}
+
+.curr-link a {
+	color: black;
+	font-size: 20px;
+	overflow: hidden;
+}
+
+.curr-link a:hover {
+	color: #09ffe7;
+	text-decoration: none;
+}
+
+.teal-offset-button {
+	color: #09ffe7;
+	text-align: center;
+	margin-bottom: 40px;
+	width: 250px;
+	height: 50px;
+}
+
+
+/* -------------------------- animation stuff im trying -------------------------- */
+
+.cmn-t-pulse {
+  color: #fff;
+  background-color: #09ffe7;
+  animation: pulse 1s ease infinite;
+  /* transition: transform 0.2s; */
+}
+.cmn-t-pulse:hover {
+  color: #fff;
+  background-color: #3187c8;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
 
   50% {
     transform: scale(1.1);
@@ -362,11 +390,25 @@ p{
 	.aboutText{
 		margin-top: -14px;
 	}
-	h1 {
-		font-size: 100px;
-	} 
 	h3 {
 		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 995px) {
+	.skills-container {
+		width: 40%;
+	}
+	.hover-container {
+		height: 100px;
+		width: 100px;
+	}
+	.skills-icon {
+		height: 100px;
+		width: 100px;
+	}
+	.text {
+		font-size: 12px;
 	}
 }
 
@@ -452,7 +494,9 @@ p{
 	}
 	#hero-title {
 		text-shadow: 2px 2px #09ffe7;
-		
+	}
+	#hero-title:hover {
+		text-shadow: 2px 2px #3187c8;
 	}
 	.hero-image {
 		height: 300px;
@@ -461,6 +505,9 @@ p{
 @media screen and (max-width: 600px) {
 	.about_subtitle h2{
 		font-size: 10vw;
+	}
+	#skills-title h2{
+		font-size: 50px;
 	}
 
 }
