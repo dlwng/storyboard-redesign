@@ -174,50 +174,42 @@ p{
 .phoneSecondImage{
 	display: none;
 }
-.CC{
+.CCspecific{
 	background-image:url("../images/cc.png");
 	z-index: -3;
 	display: inline-block;
 }
-.ccName{
-	border: 2px solid black;
-	margin-top: 430px;
-	margin-left: 17vw;
-	width: 300px;
-	height: 71px;
-	z-index: 2;
-	position: relative;
-}
-.ccName h2{
-	font-size: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -1px;
-	padding: 3px;
-	width: fit-content;
-	z-index: 2;
-}
-.ccTeal{
-	background-color: #09ffe7;
-	width: 300px;
-	height: 70px;
-	z-index: -1;
-	margin-left: 16.5vw;
-	margin-top: -60px;
-	position: relative;
-}
-.CCtext {
-	width: 40%;
-	float: right;
-}
-.instructorsMainTitle{
-	width: fit-content;
+.instructors{
 	text-align: center;
 }
-.instructorsMainTitle h2{
-	font-size: 50px;
+.CCtext{
+	margin-left: 4vw;
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+	margin-top: 55px;
+	text-align: left;
 }
-
+.CCtext h5{
+	font-size: 30px;
+}
+.ccimage{
+	width:300px;
+    height: 280px;
+	/*width: 16vw;
+	height: 27vh;*/
+	background-size: cover;
+	display: inline-block;
+	z-index: -3;
+	position: relative;
+}
+.ccPhotoTextHolder{
+	margin-top: 20px;
+}
+.CCworkLink{
+	font-size: 20px;
+	color:#3187c8;
+}
 
 
 /* -------------------------- animation stuff im trying -------------------------- */
@@ -345,6 +337,9 @@ p{
 	}
 	.hideWhenMobile{
 		display: none;
+	}
+	.CC{
+		width: 100%;
 	}
 
 }
