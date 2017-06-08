@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 @font-face {
-	font-family: "GothamMedium";
+	font-family: "../fonts/GothamMedium";
 	src: url("GothamMedium.otf");
 }
 @font-face {
-	font-family: "GothamBook";
+	font-family: "../fonts/GothamBook";
 	src: url("GothamBook.otf");
 }
 
@@ -55,6 +55,7 @@ p{
 }
 .applyButton{
     margin-top: -6px;
+    border: none;
 }
 .nav li{
     margin-top: 5px;
