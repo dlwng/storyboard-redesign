@@ -63,6 +63,7 @@ p{
 .navbar-right{
     margin-right: 5vw;
 }
+
 .hero-image {
 	background-image: url("../images/header.png");
 	background-color: black;
@@ -73,7 +74,6 @@ p{
 	background-size: cover;
 	position: relative;
 	margin: 0 auto;
-	opacity: 0.8;
 }
 
 .hero-text {
@@ -91,6 +91,9 @@ p{
 	text-shadow: 5px 5px #09ffe7;
 }
 
+#hero-title:hover {
+	text-shadow: 5px 5px #3187c8;
+}
 /*#title-offset {
 	text-align: center;
 	position: absolute;
@@ -197,7 +200,7 @@ p{
 }
 
 .skills {
-	background-image: url("../images/desk.jpg");
+	background-image: url("../images/desk-bw.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -243,7 +246,7 @@ p{
 
 .overlay {
 	position: absolute;
-	background-color: #3187c8;
+	background-color: white;
 	overflow: hidden;
 	width: 100%;
 	border-radius: 50%;
@@ -265,7 +268,7 @@ p{
 
 .text {
 	white-space: nowrap; 
-	color: white;
+	color: black;
 	font-family: GothamMedium;
 	font-size: 18px;
 	position: absolute;
@@ -279,6 +282,11 @@ p{
 .hover-container:hover .overlay{
 	bottom: 0;
 	height: 100%;
+}
+
+.hover-container:hover .skills-icon{
+	-webkit-filter: drop-shadow(5px 5px #3187c8);
+    filter: drop-shadow(5px 5px #3187c8); 
 }
 
 
