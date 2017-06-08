@@ -177,6 +177,7 @@ p{
 .CC{
 	background-image:url("../images/cc.png");
 	z-index: -3;
+	display: inline-block;
 }
 .ccName{
 	border: 2px solid black;
@@ -205,6 +206,19 @@ p{
 	margin-top: -60px;
 	position: relative;
 }
+.CCtext {
+	width: 40%;
+	float: right;
+}
+.instructorsMainTitle{
+	width: fit-content;
+	text-align: center;
+}
+.instructorsMainTitle h2{
+	font-size: 50px;
+}
+
+
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
@@ -279,6 +293,7 @@ p{
 	.secondTextSpecific{
 		margin-right: 0;
 	}
+
 }
 @media screen and (max-width: 710px) {
 	.imageOneSpecific{
