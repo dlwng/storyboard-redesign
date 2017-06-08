@@ -10,6 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/stylesheet.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +36,7 @@
         </div>
         <div class="collapse navbar-collapse" id="mainNavBar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
+            <li><a href="#" onclick= "scrollToTop()">About</a></li>
             <li><a href="#">Curriculum</a></li>
             <li><a href="#">Outcomes</a></li>
             <li><a href="#"><button type="button" class="btn btn-primary applyButton cmn-t-pulse">Apply</button></a></li>
@@ -49,7 +51,7 @@
           </div>
         </div>
     </div>
-    <div class="about">
+    <div id="aboutPage" class="about">
       <div class="container-fluid">
         <div class="about_subtitle">
           <h3>A CLASS FOR THE</h3>
