@@ -189,14 +189,24 @@ p{
 	color: white;
 }
 
-#skills-title {
+.skills-title {
 	text-align: center;
+}
+
+.skills-title h3 {
+	margin-bottom: 0px;
+	font-size: 35px;
+}
+
+.skills-title h2 {
 	margin-bottom: 30px;
+	margin-top: -4px;
 }
 
 .skills-container {
 	width: 60%;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .row {
@@ -310,15 +320,14 @@ p{
 }
 
 .curr-link {
-	text-align: center;
+	margin: 0 auto;
 	margin-bottom: 40px;
-	border: 3px solid black;
 	width: 250px;
 	height: 50px;
 }
 
 .curr-link a {
-	color: black;
+	color: #3187c8;
 	font-size: 20px;
 	overflow: hidden;
 }
@@ -334,6 +343,10 @@ p{
 	margin-bottom: 40px;
 	width: 250px;
 	height: 50px;
+}
+
+.mobile {
+	display: none;
 }
 
 
@@ -396,19 +409,19 @@ p{
 }
 
 @media screen and (max-width: 995px) {
-	.skills-container {
-		width: 40%;
-	}
-	.hover-container {
-		height: 100px;
-		width: 100px;
-	}
-	.skills-icon {
-		height: 100px;
-		width: 100px;
-	}
+
 	.text {
 		font-size: 12px;
+	}
+	.mobile {
+		display: inline-block;
+	}
+
+	.desktop {
+		display: none;
+	}
+	.col-xs-6 {
+		margin-bottom: 30px;
 	}
 }
 
@@ -501,14 +514,32 @@ p{
 	.hero-image {
 		height: 300px;
 	}
+	.skills-title h3 {
+		font-size: 25px;
+	}
+
 }
 @media screen and (max-width: 600px) {
 	.about_subtitle h2{
 		font-size: 10vw;
 	}
-	#skills-title h2{
-		font-size: 50px;
+	.skills-title h2{
+		font-size: 10vw;
 	}
-
+	.skills-container {
+		width: 100%;
+	}
+	.skills-title h3 {
+		font-size: 4vw;
+		margin-bottom: 8px;
+	}
+	.hover-container {
+		width: 100px;
+		height: 100px;
+	}
+	.skills-icon {
+		width: 100px;
+		height: 100px;
+	}
 }
 
