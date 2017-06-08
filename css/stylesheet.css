@@ -433,7 +433,60 @@ p{
 	margin-bottom: 20px;
 	display: none;
 }
-
+.after-storyboard h2{
+    text-align: center;
+}
+.afterTitle{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+.afterPhoto{
+    display: inline-block;
+    width:400px;
+    height: 380px;
+    position: relative;
+    z-index: -4;
+    background: url('../images/afterStoryboard.jpg');
+    background-size: cover;
+    position: relative;
+}
+.compellingSentence{
+    font-family: 'Playfair Display', serif;
+}
+.afterStoryBoardHolder{
+    text-align: center;
+    margin-top: 20px;
+}
+.afterBlackBox h5{
+    font-size: 14px;
+    width: 340px;
+    margin-left: 10px;
+}
+.afterBlackBox h6{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.afterBlackBox{
+    border: 3px solid black;
+    color: black;
+    text-align: left;
+    margin-top: 325px;
+    width: 350px;
+    height: 100px;
+    margin-left: 90px;
+    position: relative;
+    z-index: 10;
+}
+.afterTealBox{
+    width:350px;
+    height: 100px;
+    background:#09ffe7;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 100px;
+}
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
