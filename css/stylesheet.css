@@ -437,6 +437,7 @@ p{
 
 .student-work {
 	text-align: center;
+	background-color: #09ffe7;
 }
 .row-fluid h2 {
 	margin-top: 0;
@@ -445,6 +446,7 @@ p{
 .slide {
 	margin-top: 50px;
 	margin-bottom: 50px;
+	width: 100%;
 }
 
 .widescreen {
@@ -559,6 +561,15 @@ p{
 	iframe {
 		width: 320px;
 		height: 240px;
+	}
+
+	.row-fluid h2 {
+		font-size: 40px;
+	}
+
+	.slide {
+		margin-top: 20px;
+		margin-bottom: 50px;
 	}
 
 }
@@ -681,6 +692,9 @@ p{
 	}
 	.skills-title h3 {
 		font-size: 25px;
+	}
+	.row-fluid h2 {
+		font-size: 40px;
 	}
 
 
