@@ -612,17 +612,13 @@ iframe:hover {
 	font-size: 50px;
 }
 
-.list-link {
-	font-family: GothamMedium;
-	font-size: 20px;
-}
-
 .app-button {
 	border: 3px solid black;
 	text-align: center;
 	background-color: rgba(0,0,0,0);
 	width: 625px;
 	height: 70px;
+	margin: 0 auto;
 }
 
 .the-button {
@@ -644,7 +640,7 @@ iframe:hover {
 	height: 70px;
 	z-index: -1;
 	margin-top: -55px;
-	margin-left: 115px;
+	margin-left: 8px;
 }
 
 .app-button:hover {
@@ -659,6 +655,16 @@ iframe:hover {
 	font-family: GothamMedium;
 	font-size: 20px;
 	padding: 20px;
+}
+
+.apply-page-link {
+	font-family: GothamMedium;
+	font-size: 20px;
+}
+
+.apply-page-link:hover {
+	text-decoration: none;
+	color: #09ffe7;
 }
 
 
