@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 @font-face {
-	font-family: "../fonts/GothamMedium";
-	src: url("GothamMedium.otf");
+	font-family: "GothamMedium";
+	src: url("../fonts/GothamMedium.otf"),
+		 url('gothammedium.woff2') format('woff2'),
+         url('gothammedium.woff') format('woff');
 }
 @font-face {
-	font-family: "../fonts/GothamBook";
-	src: url("GothamBook.otf");
+	font-family: "GothamBook";
+	src: url("../fonts/GothamBook.otf"),
+		 url('gothambook-webfont.woff2') format('woff2'),
+         url('gothambook-webfont.woff') format('woff');
 }
 
 h1 {
@@ -188,6 +192,7 @@ p{
 }
 .instructors{
 	text-align: center;
+	margin-bottom: 50px;
 }
 .CCtext{
 	margin-left: 4vw;
@@ -259,7 +264,7 @@ p{
 
 
 .skills {
-	background-image: url("../images/desk-bw.png");
+	background-image: url("../images/hc-flatlay-2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -399,9 +404,8 @@ p{
 
 .curr-link {
 	margin: 0 auto;
-	margin-bottom: 40px;
-	width: 250px;
-	height: 50px;
+	margin-bottom: 50px;
+	width: 240.38px;
 }
 
 .curr-link a {
@@ -430,6 +434,7 @@ p{
 }
 
 .mobile {
+	margin: 0 auto;
 	margin-bottom: 20px;
 	display: none;
 }
@@ -488,6 +493,47 @@ p{
     margin-top: -166px;
     margin-left: 100px;
 }
+.student-work {
+	text-align: center;
+	background-color: #09ffe7;
+}
+.row-fluid h2 {
+	margin-top: 0;
+}
+
+.row-fluid h3 {
+	margin-top: 30px;
+}
+
+.slide {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+iframe {
+	filter: grayscale(100%);
+}
+
+iframe:hover {
+	filter: grayscale(0%);
+}
+
+.widescreen {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+	color: black;
+}
+
+
+
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
@@ -556,6 +602,7 @@ p{
 	}
 	.CCtext{
 		width: 40%;
+	}
 
 	h3 {
 		font-size: 30px;
@@ -569,6 +616,11 @@ p{
 	}
 	.mobile {
 		display: inline-block;
+	}
+
+	.hover-container:active .overlay{
+		bottom: 0;
+		height: 100%;
 	}
 
 	.desktop {
@@ -605,6 +657,23 @@ p{
         font-size: 12px;
         margin-top: -9px;
     }
+}
+
+@media screen and (max-width: 930px) {
+	iframe {
+		width: 320px;
+		height: 240px;
+	}
+
+	.row-fluid h2 {
+		font-size: 40px;
+	}
+
+	.slide {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
 }
 
 @media screen and (max-width: 800px) {
@@ -741,6 +810,9 @@ p{
         margin-left: auto;
         margin-right: auto;
     }
+	.row-fluid h2 {
+		font-size: 40px;
+	}
 
 
 }
