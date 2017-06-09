@@ -564,6 +564,11 @@ iframe:hover {
 		display: inline-block;
 	}
 
+	.hover-container:active .overlay{
+		bottom: 0;
+		height: 100%;
+	}
+
 	.desktop {
 		display: none;
 	}
