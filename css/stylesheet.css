@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 @font-face {
-	font-family: "../fonts/GothamMedium";
-	src: url("GothamMedium.otf");
+	font-family: "GothamMedium";
+	src: url("../fonts/GothamMedium.otf"),
+		 url('gothammedium.woff2') format('woff2'),
+         url('gothammedium.woff') format('woff');
 }
 @font-face {
-	font-family: "../fonts/GothamBook";
-	src: url("GothamBook.otf");
+	font-family: "GothamBook";
+	src: url("../fonts/GothamBook.otf"),
+		 url('gothambook-webfont.woff2') format('woff2'),
+         url('gothambook-webfont.woff') format('woff');
 }
 
 h1 {
@@ -260,7 +264,7 @@ p{
 
 
 .skills {
-	background-image: url("../images/desk-bw.png");
+	background-image: url("../images/hc-flatlay-2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -441,6 +445,10 @@ p{
 }
 .row-fluid h2 {
 	margin-top: 0;
+}
+
+.row-fluid h3 {
+	margin-top: 30px;
 }
 
 .slide {
