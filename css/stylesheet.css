@@ -430,7 +430,61 @@ p{
 	margin-bottom: 20px;
 	display: none;
 }
-
+.after-storyboard h2{
+    text-align: center;
+}
+.afterTitle{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    text-align: left;
+}
+.afterPhoto{
+    display: inline-block;
+    width:400px;
+    height: 380px;
+    position: relative;
+    z-index: -4;
+    background: url('../images/afterStoryboard.jpg');
+    background-size: cover;
+    position: relative;
+}
+.compellingSentence{
+    font-family: 'Playfair Display', serif;
+}
+.afterStoryBoardHolder{
+    text-align: center;
+    margin-top: 20px;
+}
+.afterBlackBox h5{
+    font-size: 22px;
+    width: 330px;
+    margin-left: 10px;
+}
+.afterBlackBox h6{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.afterBlackBox{
+    border: 3px solid black;
+    color: black;
+    text-align: left;
+    margin-top: 270px;
+    width: 350px;
+    height: 175px;
+    margin-left: 70px;
+    position: relative;
+    z-index: 10;
+}
+.afterTealBox{
+    width:350px;
+    height: 175px;
+    background:#09ffe7;
+    position: relative;
+    margin-top: -166px;
+    margin-left: 80px;
+}
 .student-work {
 	text-align: center;
 	background-color: #09ffe7;
@@ -469,6 +523,78 @@ iframe:hover {
 .glyphicon-chevron-left, .glyphicon-chevron-right {
 	color: black;
 }
+.landed{
+    margin-top: 75px;
+}
+.row{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+.pioneerLogo{
+    width:13vw;
+    height: auto;
+    padding-right: 30px;
+}
+.cnnLogo{
+    width: 5vw;
+}
+.parselyLogo{
+    width:13vw;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.tomtomLogo{
+    width:13vw;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.bostonredsoxLogo{
+    width: 6vw;
+    padding-left: 20px;
+    margin-top: 8.5px;
+}
+.uncubed{
+    width: 7vw;
+    margin-top: -15px;
+}
+.landedTitle{
+    text-align: center;
+}
+.showLogosWhenMobile{
+    display: none;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+/*    background-color: #09ffe7;*/
+    background-color: rgba(119,136,153,0.4);
+    margin-top: 50px;
+    position: relative;
+}
+.footerText{
+    width:40%;
+    position: absolute;
+    top:25px;
+    left: 200px;
+}
+.emailForm{
+    width:35%;
+    position: absolute;
+    top: 50px;
+    right: 220px;
+}
+.form-group label{
+    font-family: GothamMedium;
+}
+.form-group input{
+    font-family: GothamMedium;
+}
+.btn{
+    font-family: GothamMedium;
+}
+
 
 .process {
 	width: 60%;
@@ -538,7 +664,7 @@ iframe:hover {
 /* -------------------------- animation stuff im trying -------------------------- */
 
 .cmn-t-pulse {
-  color: #fff;
+  color: black;
   background-color: #09ffe7;
   animation: pulse 1s ease infinite;
   /* transition: transform 0.2s; */
@@ -562,6 +688,21 @@ iframe:hover {
 }
 
 /* ^^^ -------------------------- animation stuff im trying -------------------------- ^^^ */ 
+@media screen and (max-width: 1600px) {
+    .footerText h3{
+        font-size:30px;
+    }
+    .footerText p{
+        font-size: 18px;
+    }
+    .footerText{
+        left: 140px;
+    }
+    .emailForm{
+        right: 100px;
+    }
+}
+
 @media screen and (max-width: 1210px) {
 	.Ceciliatext h5{
 	font-size: 25px;
@@ -608,7 +749,53 @@ iframe:hover {
 		font-size: 30px;
 	}
 }
-
+@media screen and (max-width: 1000px) {
+    .hideLogosWhenMobile{
+        display: none;
+    }
+    .showLogosWhenMobile{
+        display: block;
+    }
+    .pioneerLogo{
+        width: 200px;
+    }
+    .cnnLogo{
+        width: 110px;
+        margin-top: -10px;
+    }
+    .parselyLogo{
+        width: 200px;
+        margin-top: 15px;
+    }
+    .tomtomLogo{
+        width: 190px;
+    }
+    .bostonredsoxLogo{
+        width: 115px;
+        margin-top: 20px;
+    }
+    .uncubed{
+        width: 120px;
+        margin-top: 5px;
+    }
+    .row{
+        width: 100%;
+    }
+    .footerText h3{
+        font-size:24px;
+    }
+    .footerText p{
+        font-size: 14px;
+    }
+    .footerText{
+        left: 40px;
+        top: 50px;
+    }
+    .emailForm{
+        right: 40px;
+    }
+    
+}
 @media screen and (max-width: 995px) {
 
 	.text {
@@ -630,6 +817,33 @@ iframe:hover {
 		margin-bottom: 30px;
 
 	}
+    .afterTitle{
+        margin-top: -10px;
+        margin-right: 10px
+    }
+    .afterPhoto{
+        width:300px;
+        height: 280px;
+        margin-top: 30px;
+    }
+    .afterTealBox{
+        width:270px;
+        height: 105px;
+        margin-top:-95px;
+    }
+    .afterBlackBox{
+        width: 270px;
+        height: 105px;
+        margin-top: 220px;
+    }
+    .afterBlackBox h5{
+        font-size: 14px;
+        width: 255px
+    }
+    .afterBlackBox h6{
+        font-size: 12px;
+        margin-top: -9px;
+    }
 }
 
 @media screen and (max-width: 930px) {
@@ -743,7 +957,17 @@ iframe:hover {
 	.Ceciliatext h5{
 		width:100%;
 		margin-left: 0;
-	}
+	
+    }
+    .afterTitle{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .landedTitle h2{
+        font-size: 50px;
+    }
+  
+    
 
 }
 @media screen and (max-width: 700px) {
@@ -768,11 +992,30 @@ iframe:hover {
 	.skills-title h3 {
 		font-size: 25px;
 	}
+    .afterBlackBox{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .afterTealBox{
+        margin-left: auto;
+        margin-right: auto;
+    }
 	.row-fluid h2 {
 		font-size: 40px;
 	}
-
-
+    .footerText h3{
+        font-size:18px;
+    }
+    .footerText p{
+        font-size: 12px;
+    }
+    .footerText{
+        left: 10px;
+        top:0;
+    }
+    .emailForm{
+        right: 110px;
+    }
 }
 @media screen and (max-width: 600px) {
 	.about_subtitle h2{
@@ -796,5 +1039,14 @@ iframe:hover {
 		width: 100px;
 		height: 100px;
 	}
+    .afterStoryboardTitle{
+        font-size: 40px;
+    }
 }
+@media screen and (max-width: 550px) {
+    .afterStoryboardTitle{
+        font-size: 35px;
+    }
+}
+    
 
