@@ -481,7 +481,7 @@ p{
     margin-top: 270px;
     width: 350px;
     height: 175px;
-    margin-left: 90px;
+    margin-left: 70px;
     position: relative;
     z-index: 10;
 }
@@ -491,7 +491,7 @@ p{
     background:#09ffe7;
     position: relative;
     margin-top: -166px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .student-work {
 	text-align: center;
@@ -531,7 +531,48 @@ iframe:hover {
 .glyphicon-chevron-left, .glyphicon-chevron-right {
 	color: black;
 }
-
+.landed{
+    margin-top: 75px;
+}
+.row{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+.pioneerLogo{
+    width:13vw;
+    height: auto;
+    padding-right: 30px;
+}
+.cnnLogo{
+    width: 5vw;
+}
+.parselyLogo{
+    width:13vw;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.tomtomLogo{
+    width:13vw;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.bostonredsoxLogo{
+    width: 6vw;
+    padding-left: 20px;
+    margin-top: 8.5px;
+}
+.uncubed{
+    width: 7vw;
+    margin-top: -15px;
+}
+.landedTitle{
+    text-align: center;
+}
+.showLogosWhenMobile{
+    display: none;
+}
 
 
 
@@ -608,7 +649,39 @@ iframe:hover {
 		font-size: 30px;
 	}
 }
-
+@media screen and (max-width: 1000px) {
+    .hideLogosWhenMobile{
+        display: none;
+    }
+    .showLogosWhenMobile{
+        display: block;
+    }
+    .pioneerLogo{
+        width: 200px;
+    }
+    .cnnLogo{
+        width: 110px;
+        margin-top: -10px;
+    }
+    .parselyLogo{
+        width: 200px;
+        margin-top: 15px;
+    }
+    .tomtomLogo{
+        width: 190px;
+    }
+    .bostonredsoxLogo{
+        width: 115px;
+        margin-top: 20px;
+    }
+    .uncubed{
+        width: 120px;
+        margin-top: 5px;
+    }
+    .row{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 995px) {
 
 	.text {
@@ -775,6 +848,9 @@ iframe:hover {
     .afterTitle{
         width: 100%;
         margin-top: 20px;
+    }
+    .landedTitle h2{
+        font-size: 50px;
     }
   
     
