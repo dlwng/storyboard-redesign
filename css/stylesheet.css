@@ -404,9 +404,8 @@ p{
 
 .curr-link {
 	margin: 0 auto;
-	margin-bottom: 40px;
-	width: 250px;
-	height: 50px;
+	margin-bottom: 50px;
+	width: 240.38px;
 }
 
 .curr-link a {
@@ -435,6 +434,7 @@ p{
 }
 
 .mobile {
+	margin: 0 auto;
 	margin-bottom: 20px;
 	display: none;
 }
