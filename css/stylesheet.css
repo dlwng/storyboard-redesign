@@ -422,14 +422,6 @@ p{
 	text-decoration: none;
 }
 
-.teal-offset-button {
-	color: #09ffe7;
-	text-align: center;
-	margin-bottom: 40px;
-	width: 250px;
-	height: 50px;
-}
-
 .desktop {
 	margin-bottom: 20px;
 }
@@ -478,7 +470,69 @@ iframe:hover {
 	color: black;
 }
 
+.process {
+	width: 60%;
+	margin-bottom: 50px;
+}
 
+.process ol {
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.steps {
+	font-family: GothamMedium;
+	font-size: 50px;
+}
+
+.list-link {
+	font-family: GothamMedium;
+	font-size: 20px;
+}
+
+.app-button {
+	text-align: center;
+}
+
+.the-button {
+	border: 3px solid black;
+	background-color: rgba(0,0,0,0);
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-family:GothamMedium;
+	font-size: 30px;
+	width: 625px;
+	height: 70px;
+	position: relative;
+}
+
+.teal-offset-button {
+	position: relative;
+	background-color: #09ffe7;
+	width: 300px;
+	height: 100px;
+	width: 625px;
+	height: 70px;
+	z-index: -1;
+	margin-top: -60px;
+	margin-left: 115px;
+}
+
+.app-button:hover .the-button {
+	background-color: #09ffe7;
+}
+
+.app-button:hover .teal-offset-button{
+	background-color: white;
+}
+
+.return-arrow {
+	font-family: GothamMedium;
+	font-size: 20px;
+	padding: 20px;
+}
 
 
 /* -------------------------- animation stuff im trying -------------------------- */
