@@ -37,10 +37,11 @@
         <div class="collapse navbar-collapse" id="mainNavBar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#" onclick= "scrollToTop()">About</a></li>
-            <li><a href="#">Curriculum</a></li>
+            <li><a href="#" onclick= "scrollToTopTwo()">Curriculum</a></li>
             <li><a href="#">Outcomes</a></li>
-            <li><a href="#"><button type="button" class="btn btn-primary applyButton cmn-t-pulse">Apply</button></a></li>
+            <li><a href="apply.html"><button type="button" class="btn btn-primary applyButton cmn-t-pulse">Apply</button></a></li>
           </ul> 
+        </div>
         </div>
     </nav>
     <div class="header">
@@ -107,7 +108,7 @@
             </div>
           </div>
 
-          <div class="skills">
+          <div id="skillsSection" class="skills">
             <div class="container-fluid">
 
               <div class="skills-title">
@@ -245,7 +246,7 @@
             </div>
           </div>
 
-          <div class="instructors">
+          <div id="teachers" class="instructors">
             <div class="instructorsMainTitle">
               <h2 class="teacherTitle">YOUR INSTRUCTORS</h2>
             </div>
@@ -334,7 +335,7 @@
                   <div class="item">
                     <div class="container">
                       <div class="flex-video widescreen">
-                        <<iframe width="640" height="360" src="https://www.youtube.com/embed/auNYwU0Ibc4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/auNYwU0Ibc4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                       </div>
                     </div>
                   </div>
@@ -356,10 +357,89 @@
 
         </div>
         <div class="after-storyboard">
-          <div class="container"></div>
+            <h2 class="afterStoryboardTitle">WHERE STORYBOARD CAN TAKE YOU</h2>
+            <div class="container-fluid hideWhenMobile">
+                <div class="container afterStoryBoardHolder">
+                    <div class="afterTitle">
+                        <h4>The skills you learn here can take you far</h4>
+                        <p>Past alumni of HackCville's Storyboard program have gone on to do incredible things. Some students choose to join our student-run publication The Pioneer, while others use their skills to build their entrepreneurial toolbox.</p>
+                        <br>
+                        <p class="compellingSentence">Where will Storyboard take you?</p>
+                    </div>
+                    <div class="afterPhoto">
+                        <div class="afterBlackBox">
+                            <h5>"Storyboard taught me a lot of valuable video production skills that UVA wouldn't have been able to teach me.</h5>
+                            <h6>- Dorothy Wang, HackCville Member, Storyboard Program Graduate</h6>
+                        </div>
+                        <div class="afterTealBox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid phoneSecondImage">
+                <div class="container afterStoryBoardHolder">
+                    <div class="afterPhoto">
+                        <div class="afterBlackBox">
+                            <h5>"Storyboard taught me a lot of valuable video production skills that UVA wouldn't have been able to teach me.</h5>
+                            <h6>- Dorothy Wang, HackCville Member, Storyboard Program Graduate</h6>
+                        </div>
+                        <div class="afterTealBox">
+                        </div>
+                    </div>
+                    <div class="afterTitle">
+                        <h4>The skills you learn here can take you far</h4>
+                        <p>Past alumni of HackCville's Storyboard program have gone on to do incredible things. Some students choose to join our student-run publication The Pioneer, while others use their skills to build their entrepreneurial toolbox.</p>
+                        <br>
+                        <p class="compellingSentence">Where will Storyboard take you?</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
         <div class="landed">
-          <div class="container"></div>
+            <div class="container-fluid">
+                <div class="landedTitle">
+                    <h2>PLACES WE'VE LANDED</h2>
+                </div>
+            <div class="row logoHolder hideLogosWhenMobile">
+                <div class="col-md-2"><img class="pioneerLogo" src="images/pioneerLogo.jpg"></div>
+                <div class="col-md-2">.<img class="cnnLogo" src="images/nbcLogo.png"></div>
+                <div class="col-md-2"><img class="parselyLogo" src="images/parselyLogo.png"></div>
+                <div class="col-md-2"><img class="tomtomLogo" src="images/tomtomLogo.jpg"></div>
+                <div class="col-md-2"><img class="bostonredsoxLogo" src="images/redsoxLogo.jpg"></div>
+                <div class="col-md-2"><img class="uncubed" src="images/uncubed.png"></div>
+            </div>
+                
+            <div class="row logoHolder showLogosWhenMobile">
+                <div class="col-xs-6"><img class="pioneerLogo logo" src="images/pioneerLogo.jpg"></div>
+                <div class="col-xs-6">.<img class="cnnLogo logo" src="images/nbcLogo.png"></div>
+                <div class="col-xs-6"><img class="parselyLogo logo" src="images/parselyLogo.png"></div>
+                <div class="col-xs-6"><img class="tomtomLogo logo" src="images/tomtomLogo.jpg"></div>
+                <div class="col-xs-6"><img class="bostonredsoxLogo logo" src="images/redsoxLogo.jpg"></div>
+                <div class="col-xs-6"><img class="uncubed logo" src="images/uncubed.png"></div>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="container footerText">
+                    <h3>Get more info on our programs and free weekly events</h3>
+                    <p>Join 2500+ others and sign up to recieve updates on our events, programs, and how you can get involved. We'll be sending out the link to our application link on January 18, too.</p>
+                </div>
+                <div class="container emailForm">
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Name</label>
+                        <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Type your name...">
+                      </div>
+                      <button type="submit" class="btn btn-default ">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
