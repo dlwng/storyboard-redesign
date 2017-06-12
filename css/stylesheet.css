@@ -446,9 +446,10 @@ p{
     height: 380px;
     position: relative;
     z-index: -4;
-    background: url('../images/afterStoryboard.jpg');
+    background: url('../images/afterStoryboard.png');
     background-size: cover;
     position: relative;
+    
 }
 .compellingSentence{
     font-family: 'Playfair Display', serif;
@@ -458,13 +459,15 @@ p{
     margin-top: 20px;
 }
 .afterBlackBox h5{
-    font-size: 22px;
-    width: 330px;
-    margin-left: 10px;
+    font-size: 17px;
+    width: 320px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 .afterBlackBox h6{
-    font-size: 16px;
-    margin-left: 10px;
+    font-size: 13px;
+    margin-left: 12px;
+    font-style: italic;
 }
 .afterBlackBox{
     border: 3px solid black;
@@ -526,7 +529,7 @@ iframe:hover {
 .landed{
     margin-top: 75px;
 }
-.row{
+#landedID .row{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -594,7 +597,9 @@ iframe:hover {
 .btn{
     font-family: GothamMedium;
 }
-
+.tomtomLogoSmall{
+    display: none;
+}
 
 .process {
 	width: 60%;
@@ -779,7 +784,7 @@ iframe:hover {
         width: 120px;
         margin-top: 5px;
     }
-    .row{
+    #landedID .row{
         width: 100%;
     }
     .footerText h3{
@@ -794,6 +799,10 @@ iframe:hover {
     }
     .emailForm{
         right: 40px;
+    }
+    .afterBlackBox h5{
+        margin-top: 10px;
+        width: 85%;
     }
     
 }
@@ -838,11 +847,13 @@ iframe:hover {
         margin-top: 220px;
     }
     .afterBlackBox h5{
-        font-size: 14px;
-        width: 255px
+        font-size: 12px;
+        width: 245px;
+        margin-top: 15px;
     }
     .afterBlackBox h6{
-        font-size: 12px;
+        font-size: 10px;
+        font-style: italic;
         margin-top: -9px;
     }
 }
@@ -967,6 +978,9 @@ iframe:hover {
     .landedTitle h2{
         font-size: 50px;
     }
+    .afterTitle{
+        margin-top: 80px;
+    }
   
     
 
@@ -1004,18 +1018,20 @@ iframe:hover {
 	.row-fluid h2 {
 		font-size: 40px;
 	}
-    .footerText h3{
-        font-size:18px;
-    }
-    .footerText p{
-        font-size: 12px;
-    }
     .footerText{
-        left: 10px;
-        top:0;
+        width: 90%;
+        margin-top: -30px;
+        margin-left: -15px;
     }
     .emailForm{
-        right: 110px;
+        width: 90%;
+    }
+    .emailForm form{
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+    .footer{
+        height: 500px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -1047,6 +1063,25 @@ iframe:hover {
 @media screen and (max-width: 550px) {
     .afterStoryboardTitle{
         font-size: 35px;
+    }
+    .tomtomLogo{
+        width: 180px;
+    }
+}
+@media screen and (max-width:500px){
+    .tomtomLogo{
+        width: 170px;
+        display: none;
+    }
+    .tomtomLogoSmall{
+        display: inline-block;
+    }
+    .tomtomLogo2{
+        width: 90px;
+        margin-top: -35px;
+    }
+    .emailForm form{
+        margin-top: 230px;
     }
 }
     
