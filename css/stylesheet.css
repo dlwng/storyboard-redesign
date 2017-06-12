@@ -683,6 +683,24 @@ iframe:hover {
 	font-size: 20px;
 	padding: 20px;
 }
+a.backToTop{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 30px;
+    background: #3187c8;
+}
+.glyphicon-menu-up{
+    left: 12.5px;
+    top: 10px;
+    color: white;
+}
+a.backToTop:hover{
+    background-color:#09ffe7;
+}
 
 
 /* -------------------------- animation stuff im trying -------------------------- */
