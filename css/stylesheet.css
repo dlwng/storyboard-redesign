@@ -181,6 +181,7 @@ p{
 	position: relative;
 
 }
+
 .quoteSet h6{
 	margin-top: -10px;
     font-style: italic;
@@ -633,11 +634,7 @@ iframe:hover {
 .steps {
 	font-family: GothamMedium;
 	font-size: 50px;
-}
-
-.list-link {
-	font-family: GothamMedium;
-	font-size: 20px;
+	margin-bottom: 40px;
 }
 
 .app-button {
@@ -646,6 +643,7 @@ iframe:hover {
 	background-color: rgba(0,0,0,0);
 	width: 625px;
 	height: 70px;
+	margin: 0 auto;
 }
 
 .the-button {
@@ -667,7 +665,7 @@ iframe:hover {
 	height: 70px;
 	z-index: -1;
 	margin-top: -55px;
-	margin-left: 115px;
+	margin-left: 8px;
 }
 
 .app-button:hover {
@@ -676,6 +674,10 @@ iframe:hover {
 
 .app-button:hover .teal-offset-button{
 	background-color: white;
+}
+
+.app-button {
+	margin-bottom: 100px;
 }
 
 .return-arrow {
@@ -702,6 +704,19 @@ a.backToTop:hover{
     background-color:#09ffe7;
 }
 
+.apply-page-link {
+	font-family: GothamMedium;
+	font-size: 20px;
+}
+
+.apply-page-link:hover {
+	text-decoration: none;
+	color: #09ffe7;
+}
+
+#longer-title {
+	line-height: 30px;
+}
 
 /* -------------------------- animation stuff im trying -------------------------- */
 
@@ -756,6 +771,15 @@ a.backToTop:hover{
     }
 }
 
+
+@media screen and (max-width: 1185px) {
+	.steps-title {
+		font-size: 40px;
+	}
+	.process li {
+		font-size: 40px;
+	}
+}
 
 
 @media screen and (max-width: 1100px) {
@@ -914,6 +938,16 @@ a.backToTop:hover{
     }
 }
 
+@media screen and (max-width: 970px) {
+	.process {
+		width: 90%;
+	}
+	.steps-title {
+		line-height: 30px;
+		font-size: 30px;
+	}
+}
+
 @media screen and (max-width: 930px) {
 	iframe {
 		width: 320px;
@@ -1050,11 +1084,51 @@ a.backToTop:hover{
     .landedTitle h2{
         font-size: 50px;
     }
+<<<<<<< HEAD
     .afterTitle{
         margin-top: 80px;
     }
   
+=======
+    .app-button {
+    	border: 3px solid black;
+    	text-align: center;
+    	background-color: rgba(0,0,0,0);
+    	width: 450px;
+    	height: 55px;
+    	margin: 0 auto;
+    }
+
+    .the-button {
+    	padding: 10px;
+    	font-family: GothamMedium;
+    	font-size: 20px;
+    	background-color: rgba(0,0,0,0);
+    	border: 0px;
+    }
+
+    .teal-offset-button {
+    	position: relative;
+    	background-color: #09ffe7;
+    	width: 450px;
+    	height: 55px;
+    	z-index: -1;
+    	margin-top: -42px;
+    	margin-left: 6px;
+    }
+
+    .app-button:hover {
+    	background-color: #09ffe7;
+    }
+
+    .app-button:hover .teal-offset-button{
+    	background-color: white;
+    }
+>>>>>>> apply
     
+    .process li {
+    	font-size: 30px;
+    }
 
 }
 @media screen and (max-width: 700px) {
@@ -1137,6 +1211,7 @@ a.backToTop:hover{
     .afterStoryboardTitle{
         font-size: 35px;
     }
+<<<<<<< HEAD
     .tomtomLogo{
         width: 180px;
     }
@@ -1155,6 +1230,45 @@ a.backToTop:hover{
     }
     .emailForm form{
         margin-top: 230px;
+=======
+        .app-button {
+    	border: 3px solid black;
+    	text-align: center;
+    	background-color: rgba(0,0,0,0);
+    	width: 300px;
+    	height: 80px;
+    	margin: 0 auto;
+    }
+
+    .the-button {
+    	padding: 10px;
+    	font-family: GothamMedium;
+    	font-size: 20px;
+    	background-color: rgba(0,0,0,0);
+    	border: 0px;
+    }
+
+    .teal-offset-button {
+    	position: relative;
+    	background-color: #09ffe7;
+    	width: 300px;
+    	height: 80px;
+    	z-index: -1;
+    	margin-top: -70px;
+    	margin-left: 6px;
+    }
+
+    .app-button:hover {
+    	background-color: #09ffe7;
+    }
+
+    .app-button:hover .teal-offset-button{
+    	background-color: white;
+    }
+    
+    .process {
+    	font-size: 15px;
+>>>>>>> apply
     }
 }
     
