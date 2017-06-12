@@ -308,8 +308,8 @@ p{
 	margin: 0 auto;
 	height: 150px;
 	width: 150px;
-    -webkit-filter: drop-shadow(5px 5px #3187c8);
-    filter: drop-shadow(5px 5px #3187c8); 
+    -webkit-filter: drop-shadow(5px 5px #09ffe7);
+    filter: drop-shadow(5px 5px #09ffe7); 
 }
 
 .col-md-4 {
@@ -377,8 +377,8 @@ p{
 }
 
 .hover-container:hover .skills-icon{
-	-webkit-filter: drop-shadow(5px 5px #09ffe7);
-    filter: drop-shadow(5px 5px #09ffe7); 
+	-webkit-filter: drop-shadow(5px 5px #3187c8);
+    filter: drop-shadow(5px 5px #3187c8); 
 }
 
 /*.video: hover .overlay {
