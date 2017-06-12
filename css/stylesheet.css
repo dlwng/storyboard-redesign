@@ -46,7 +46,9 @@ p{
 	font-family: GothamBook;
 	font-size: 20px;
 }
-
+#aboutPage{
+    margin-top: 30px;
+}
 .hackCvilleLogo{
     width: 40px;
     height: auto;
@@ -181,6 +183,8 @@ p{
 }
 .quoteSet h6{
 	margin-top: -10px;
+    font-style: italic;
+    font-size: 15px;
 }
 .phoneSecondImage{
 	display: none;
@@ -192,7 +196,8 @@ p{
 }
 .instructors{
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
+    margin-top:70px;
 }
 .CCtext{
 	margin-left: 4vw;
@@ -269,6 +274,7 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+    margin-top: 70px;
 }
 
 .skills-title {
@@ -440,6 +446,9 @@ p{
 .after-storyboard h2{
     text-align: center;
 }
+.after-storyboard{
+    margin-top: 70px;
+}
 .afterTitle{
     width: 40%;
     display: inline-block;
@@ -458,7 +467,8 @@ p{
     position: relative;
 }
 .compellingSentence{
-    font-family: 'Playfair Display', serif;
+    font-family: 'GothamMedium', serif;
+    font-style: italic;
 }
 .afterStoryBoardHolder{
     text-align: center;
@@ -722,6 +732,12 @@ iframe:hover {
 	font-size: 25px;
 }
 }
+@media screen and (max-width: 1200px) {
+    h1{
+        font-size: 130px;
+    }
+}
+
 
 
 @media screen and (max-width: 1100px) {
@@ -768,6 +784,9 @@ iframe:hover {
 }
 
 @media screen and (max-width: 1000px) {
+    h1{
+        font-size: 115px;
+    }
     .hideLogosWhenMobile{
         display: none;
     }
@@ -871,6 +890,11 @@ iframe:hover {
     }
 
 }
+@media screen and (max-width: 950px) {
+    h1{
+        font-size: 105px;
+    }
+}
 
 @media screen and (max-width: 930px) {
 	iframe {
@@ -887,6 +911,11 @@ iframe:hover {
 		margin-bottom: 50px;
 	}
 
+}
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 95px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -912,6 +941,17 @@ iframe:hover {
 		margin-left: 0;
 	}
 
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        height: 60px;
+    }
+    .navbar-toggle{
+        margin-top: 11px;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
 }
 @media screen and (max-width: 710px) {
 	.imageOneSpecific{
