@@ -1084,12 +1084,9 @@ a.backToTop:hover{
     .landedTitle h2{
         font-size: 50px;
     }
-<<<<<<< HEAD
     .afterTitle{
         margin-top: 80px;
     }
-  
-=======
     .app-button {
     	border: 3px solid black;
     	text-align: center;
@@ -1124,7 +1121,6 @@ a.backToTop:hover{
     .app-button:hover .teal-offset-button{
     	background-color: white;
     }
->>>>>>> apply
     
     .process li {
     	font-size: 30px;
@@ -1211,7 +1207,6 @@ a.backToTop:hover{
     .afterStoryboardTitle{
         font-size: 35px;
     }
-<<<<<<< HEAD
     .tomtomLogo{
         width: 180px;
     }
@@ -1230,8 +1225,8 @@ a.backToTop:hover{
     }
     .emailForm form{
         margin-top: 230px;
-=======
-        .app-button {
+    }
+            .app-button {
     	border: 3px solid black;
     	text-align: center;
     	background-color: rgba(0,0,0,0);
@@ -1268,8 +1263,6 @@ a.backToTop:hover{
     
     .process {
     	font-size: 15px;
->>>>>>> apply
-    }
 }
     
 
