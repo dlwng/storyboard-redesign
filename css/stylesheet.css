@@ -833,6 +833,10 @@ iframe:hover {
     .desktop {
         display: none;
     }
+    #mobile-skills .col-xs-6 {
+    	margin-bottom: 60px;
+    }
+
     .col-xs-6 {
         margin-bottom: 30px;
     }
@@ -864,9 +868,6 @@ iframe:hover {
         font-size: 10px;
         font-style: italic;
         margin-top: -9px;
-    }
-    #mobile .col-xs-6 {
-    	margin-bottom: 55px;
     }
 
 }
