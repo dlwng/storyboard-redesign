@@ -301,8 +301,8 @@ p{
 	margin: 0 auto;
 	height: 150px;
 	width: 150px;
-    -webkit-filter: drop-shadow(5px 5px #09ffe7);
-    filter: drop-shadow(5px 5px #09ffe7); 
+    -webkit-filter: drop-shadow(5px 5px #3187c8);
+    filter: drop-shadow(5px 5px #3187c8); 
 }
 
 .col-md-4 {
@@ -357,14 +357,21 @@ p{
 	-ms-transform: translate(-50%, -50%);
 }
 
+.mobile-text {
+	color: white;
+	font-family: GothamMedium;
+	font-size: 12px;
+	padding: 10px;
+}
+
 .hover-container:hover .overlay{
 	bottom: 0;
 	height: 100%;
 }
 
 .hover-container:hover .skills-icon{
-	-webkit-filter: drop-shadow(5px 5px #3187c8);
-    filter: drop-shadow(5px 5px #3187c8); 
+	-webkit-filter: drop-shadow(5px 5px #09ffe7);
+    filter: drop-shadow(5px 5px #09ffe7); 
 }
 
 /*.video: hover .overlay {
@@ -427,7 +434,7 @@ p{
 
 .mobile {
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	display: none;
 }
 .after-storyboard h2{
@@ -449,7 +456,6 @@ p{
     background: url('../images/afterStoryboard.png');
     background-size: cover;
     position: relative;
-    
 }
 .compellingSentence{
     font-family: 'Playfair Display', serif;
@@ -529,6 +535,7 @@ iframe:hover {
 .landed{
     margin-top: 75px;
 }
+
 #landedID .row{
     width: 80%;
     margin-left: auto;
@@ -597,6 +604,7 @@ iframe:hover {
 .btn{
     font-family: GothamMedium;
 }
+
 .tomtomLogoSmall{
     display: none;
 }
@@ -754,7 +762,11 @@ iframe:hover {
 	h3 {
 		font-size: 30px;
 	}
+	.mobile-text {
+		font-size: 15px;
+	}
 }
+
 @media screen and (max-width: 1000px) {
     .hideLogosWhenMobile{
         display: none;
@@ -806,27 +818,24 @@ iframe:hover {
     }
     
 }
+
 @media screen and (max-width: 995px) {
-
-	.text {
-		font-size: 12px;
-	}
-	.mobile {
-		display: inline-block;
-	}
-
-	.hover-container:active .overlay{
-		bottom: 0;
-		height: 100%;
-	}
-
-	.desktop {
-		display: none;
-	}
-	.col-xs-6 {
-		margin-bottom: 30px;
-
-	}
+    .text {
+        font-size: 12px;
+    }
+    .mobile {
+        display: inline-block;
+    }
+    .hover-container:active .overlay{
+        bottom: 0;
+        height: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .col-xs-6 {
+        margin-bottom: 30px;
+    }
     .afterTitle{
         margin-top: -10px;
         margin-right: 10px
@@ -856,6 +865,10 @@ iframe:hover {
         font-style: italic;
         margin-top: -9px;
     }
+    #mobile .col-xs-6 {
+    	margin-bottom: 55px;
+    }
+
 }
 
 @media screen and (max-width: 930px) {
@@ -1018,6 +1031,7 @@ iframe:hover {
 	.row-fluid h2 {
 		font-size: 40px;
 	}
+
     .footerText{
         width: 90%;
         margin-top: -30px;
