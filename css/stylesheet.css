@@ -611,6 +611,7 @@ iframe:hover {
 .steps {
 	font-family: GothamMedium;
 	font-size: 50px;
+	margin-bottom: 40px;
 }
 
 .app-button {
@@ -650,6 +651,10 @@ iframe:hover {
 
 .app-button:hover .teal-offset-button{
 	background-color: white;
+}
+
+.app-button {
+	margin-bottom: 100px;
 }
 
 .return-arrow {
@@ -722,6 +727,9 @@ iframe:hover {
 
 @media screen and (max-width: 1185px) {
 	.steps-title {
+		font-size: 40px;
+	}
+	.process li {
 		font-size: 40px;
 	}
 }
@@ -997,8 +1005,8 @@ iframe:hover {
     	border: 3px solid black;
     	text-align: center;
     	background-color: rgba(0,0,0,0);
-    	width: 500px;
-    	height: 70px;
+    	width: 450px;
+    	height: 55px;
     	margin: 0 auto;
     }
 
@@ -1013,13 +1021,11 @@ iframe:hover {
     .teal-offset-button {
     	position: relative;
     	background-color: #09ffe7;
-    	width: 300px;
-    	height: 100px;
-    	width: 500px;
-    	height: 70px;
+    	width: 450px;
+    	height: 55px;
     	z-index: -1;
-    	margin-top: -55px;
-    	margin-left: 8px;
+    	margin-top: -42px;
+    	margin-left: 6px;
     }
 
     .app-button:hover {
@@ -1030,6 +1036,9 @@ iframe:hover {
     	background-color: white;
     }
     
+    .process li {
+    	font-size: 30px;
+    }
 
 }
 @media screen and (max-width: 700px) {
@@ -1108,6 +1117,44 @@ iframe:hover {
 @media screen and (max-width: 550px) {
     .afterStoryboardTitle{
         font-size: 35px;
+    }
+        .app-button {
+    	border: 3px solid black;
+    	text-align: center;
+    	background-color: rgba(0,0,0,0);
+    	width: 300px;
+    	height: 80px;
+    	margin: 0 auto;
+    }
+
+    .the-button {
+    	padding: 10px;
+    	font-family: GothamMedium;
+    	font-size: 20px;
+    	background-color: rgba(0,0,0,0);
+    	border: 0px;
+    }
+
+    .teal-offset-button {
+    	position: relative;
+    	background-color: #09ffe7;
+    	width: 300px;
+    	height: 80px;
+    	z-index: -1;
+    	margin-top: -70px;
+    	margin-left: 6px;
+    }
+
+    .app-button:hover {
+    	background-color: #09ffe7;
+    }
+
+    .app-button:hover .teal-offset-button{
+    	background-color: white;
+    }
+    
+    .process {
+    	font-size: 15px;
     }
 }
     
