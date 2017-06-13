@@ -8,6 +8,11 @@ function scrollToTopTwo(){
     console.log(topOfDiv);
     $('body').animate({scrollTop: topOfDiv-60}, 1500);
 }
+function scrollToTopThree(){
+    var topOfDiv = $("#outcomes").offset().top;
+    console.log(topOfDiv);
+    $('body').animate({scrollTop: topOfDiv-60}, 1700);
+}
 //function scrollToTopThree(){
 //    var topOfDiv = $("#teachers").offset().top;
 //    console.log(topOfDiv);
