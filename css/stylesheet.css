@@ -476,7 +476,8 @@ video.fillWidth {
 .curr-link {
 	margin: 0 auto;
 	margin-bottom: 50px;
-	width: 240.38px;
+	width: 300px;
+	text-align: center;
 }
 
 .curr-link a {
