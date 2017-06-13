@@ -157,7 +157,7 @@ p{
 	margin-top: 80px;
 }
 .quoteSet{
-	border: 2px solid black;
+	border: 3px solid black;
 	width: 480px;
 	height: 220px;
 	z-index: 4;
@@ -222,7 +222,7 @@ p{
 	position: relative;
 }
 .ccPhotoTextHolder{
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .CCworkLink{
 	font-size: 20px;
@@ -446,6 +446,10 @@ p{
 }
 .after-storyboard h2{
     text-align: center;
+    margin-top: -4px;
+}
+.after-storyboard h3{
+    text-align: center;
 }
 .after-storyboard{
     margin-top: 70px;
@@ -459,7 +463,7 @@ p{
 }
 .afterPhoto{
     display: inline-block;
-    width:400px;
+    width: 400px;
     height: 380px;
     position: relative;
     z-index: -4;
@@ -511,6 +515,7 @@ p{
 }
 .row-fluid h2 {
 	margin-top: 0;
+	margin-top: -4px;
 }
 
 .row-fluid h3 {
@@ -906,7 +911,7 @@ a.backToTop:hover{
         margin-right: 10px
     }
     .afterPhoto{
-        width:300px;
+        width: 300px;
         height: 280px;
         margin-top: 30px;
     }
@@ -928,7 +933,7 @@ a.backToTop:hover{
     .afterBlackBox h6{
         font-size: 10px;
         font-style: italic;
-        margin-top: -9px;
+        margin-top: -2px;
     }
 
 }
@@ -1017,11 +1022,11 @@ a.backToTop:hover{
 		margin-top: 205px;
 		/*width: 270px;*/
 		width: auto;
-		height: 140px;
+		height: 160px;
 		margin-right: auto;
 		margin-left: auto;
 		border: none;
-		border: 2px solid black;
+		border: 3px solid black;
 	}
 	.quoteSet h5{
 		font-size: 3vw;
@@ -1036,9 +1041,9 @@ a.backToTop:hover{
 		margin-left: auto;
 		/*width: 270px;
 		height: 140px;*/
-		height: 140px;
+		height: 160px;
 		width: auto;
-		margin-top: -130px;
+		margin-top: -150px;
 	}
 	.imageTwoSpecific{
 		width:100%;
@@ -1145,6 +1150,7 @@ a.backToTop:hover{
 	}
 	.teacherTitle{
 		font-size: 40px;
+		margin-top: -4px;
 	}
 	.skills-title h3 {
 		font-size: 25px;
@@ -1176,6 +1182,9 @@ a.backToTop:hover{
     .footer{
         height: 500px;
     }
+    .landedTitle h2 {
+		font-size: 40px;
+	}
 }
 @media screen and (max-width: 600px) {
 	.about_subtitle h2{
@@ -1199,12 +1208,20 @@ a.backToTop:hover{
 		width: 100px;
 		height: 100px;
 	}
-    .afterStoryboardTitle{
+    .after-storyboard h2{
         font-size: 40px;
     }
+    .tealOffSet{
+		height: 140px;
+		margin-top: -130px;
+	}
+	.quoteSet{
+		height: 140px;
+	}
+
 }
 @media screen and (max-width: 550px) {
-    .afterStoryboardTitle{
+    .after-storyboard h2{
         font-size: 35px;
     }
     .tomtomLogo{
@@ -1226,7 +1243,7 @@ a.backToTop:hover{
     .emailForm form{
         margin-top: 230px;
     }
-            .app-button {
+    .app-button {
     	border: 3px solid black;
     	text-align: center;
     	background-color: rgba(0,0,0,0);
@@ -1263,6 +1280,12 @@ a.backToTop:hover{
     
     .process {
     	font-size: 15px;
+    }
+    .afterPhoto{
+        width: 340px;
+        height: 280px;
+        margin-top: 30px;
+    }
 }
     
 
