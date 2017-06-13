@@ -808,14 +808,14 @@ a.backToTop:hover{
 /* -------------------------- animation stuff im trying -------------------------- */
 
 .cmn-t-pulse {
-  color: black;
-  background-color: #09ffe7;
+  color: white;
+  background-color: #3187c8;
   animation: pulse 1s ease infinite;
   /* transition: transform 0.2s; */
 }
 .cmn-t-pulse:hover {
   color: #fff;
-  background-color: #3187c8;
+  background-color: #09ffe7;
 }
 @keyframes pulse {
   0% {
