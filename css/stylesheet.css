@@ -24,6 +24,7 @@ h2 {
 h3 {
 	font-size: 40px;
 	font-family: 'Playfair Display', serif;
+	margin-top: 0px;
 }
 
 a {
@@ -45,8 +46,9 @@ p{
 	font-family: GothamBook;
 	font-size: 20px;
 }
+
 #aboutPage{
-    margin-top: 30px;
+    margin-top: 50px;
     z-index: 9999;
     background: white;
 }
@@ -161,7 +163,6 @@ video.fillWidth {
 
 .about_subtitle{
     text-align: center;
-    margin-top: 4vh;
 }
 .about_subtitle h2{
     margin-top: -4px;
@@ -245,7 +246,11 @@ video.fillWidth {
 .instructors{
 	text-align: center;
 	margin-bottom: 70px;
-    margin-top:70px;
+    margin-top:50px;
+}
+.instructorsMainTitle h2 {
+    margin-top: -4px;
+
 }
 .CCtext{
 	margin-left: 4vw;
@@ -331,6 +336,7 @@ video.fillWidth {
 
 .skills-title {
 	text-align: center;
+	margin-top: 50px;
 }
 
 .skills-title h3 {
@@ -503,7 +509,7 @@ video.fillWidth {
     text-align: center;
 }
 .after-storyboard{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .afterTitle{
     width: 40%;
@@ -570,7 +576,7 @@ video.fillWidth {
 }
 
 .row-fluid h3 {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .slide {
@@ -601,6 +607,14 @@ iframe:hover {
 }
 .landed{
     margin-top: 75px;
+}
+
+.landedTitle {
+	margin-top: 50px;
+}
+
+.landedTitle h2 {
+	margin-top: -4px;
 }
 
 #landedID .row{
@@ -1034,6 +1048,10 @@ a.backToTop:hover{
 	}
 
 	.row-fluid h2 {
+		font-size: 40px;
+	}
+
+	h2 {
 		font-size: 40px;
 	}
 
