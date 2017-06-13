@@ -774,6 +774,23 @@ a.backToTop:hover{
 	line-height: 30px;
 }
 
+.captions {
+	padding: 10px;
+	height: 100px;
+
+}
+.article-link {
+	font-size: 13px;
+	background-color: white;
+	padding: 10px;
+}
+.article-link:hover {
+	font-size: 13px;
+	text-decoration: none;
+	color: #09ffe7;
+}
+
+
 /* -------------------------- animation stuff im trying -------------------------- */
 
 .cmn-t-pulse {
