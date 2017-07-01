@@ -1,10 +1,10 @@
 # Redesign Project for Storyboard Website
 
-In a team of two, we worked to redesign the [Storyboard program page](hackcville.com/storyboard/) for HackCville. HackCville is a talent-accelerator in Charlottesville, VA that works to provide students and community members with the skills to hustle and start something. Storyboard is HackCville's digital storyteller program -- teaching students the technical and soft skills needed for media production. The project included a significant design process that helped us to better understand the client but also create solid mockups before we launched into development. 
+In a team of two, we worked to redesign the [Storyboard program page](http://hackcville.com/storyboard/) for HackCville. HackCville is a talent-accelerator in Charlottesville, VA that works to provide students and community members with the skills to hustle and start something. Storyboard is HackCville's digital storyteller program -- teaching students the technical and soft skills needed for media production. The project included a significant design process that helped us to better understand the client but also create solid mockups before we launched into development. 
 
 ## View the Website
 
-You can view a live version of this project [here](wireframewebsites.com/dorothywang/storyboard-redesign). If you would like to view the website locally, clone this repository and open the "index.html" file on your computer.
+You can view a live version of this project [here](http://wireframewebsites.com/dorothywang/storyboard-redesign). If you would like to view the website locally, clone this repository and open the "index.html" file on your computer.
 
 ## Built With
 
